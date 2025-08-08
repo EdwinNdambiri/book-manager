@@ -1,9 +1,0 @@
-# POST http://localhost:3000/books
-# Content-Type: application/json
-
-# {
-#     "title":"Hello from My World",
-#     "author":"Peris Njeri"
-# }
-
-GET http://localhost:3000/books
