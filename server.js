@@ -22,6 +22,7 @@ const PORT = 3000;
 
 // Built-in middleware to pass JSON requests
 app.use(express.json());
+app.use(express.static("public"));
 
 // custom application-level middleware
 app.use((req, res, next) => {

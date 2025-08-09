@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Book Manager</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>📚 Book Manager</h1>
+
+      <!-- Add Book form -->
+      <div class="form-container">
+        <h2>Add new book</h2>
+        <form id="addBookForm">
+          <input type="text" id="title" placeholder="Title" required />
+          <input type="text" id="author" placeholder="Author" required />
+          <button type="submit">Add Book</button>
+        </form>
+      </div>
+
+      <!-- Book List -->
+      <div class="book-list">
+        <h2>Your Books</h2>
+        <div id="booksContainer"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
